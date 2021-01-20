@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="js/jquery.js"></script>
+    </head>
+    <body>
+        <script type="text/javascript">
+
+        
+    $(document).ready(function () {
+ 
+         $("p").bind("click mouseenter mouseleave", function () {
+  
+                if ($(this).css("color")!="rgb(255,0,0)") {
+                    $(this).css("color", "rgb(255,0,0)");
+                } else 
+                    $(this).css("color", "rgb(0,0,255)");
+            });
+        
+});
+
+           
+
+        </script>
+
+        <p>Este texto va a cambiar de color al seleccionarlo</p> 
+
+</html>
+

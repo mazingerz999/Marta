@@ -1,0 +1,167 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<style>
+
+div#body  
+{
+margin:auto auto auto auto;  
+width:710px; 
+clear:left; 
+}
+div#header 
+{
+margin:auto auto auto auto;
+width:710px;
+border:solid 3px #815608;
+border-radius: 15px; 
+background-color: grey;
+}
+div#sidebar
+{
+display:none; 
+border:solid 1px #CFC;
+padding-left:15px; 
+}
+body.sidebar-main div#footer  
+{
+margin:25px auto 25px auto;
+width:710px;
+border:solid 3px #815608;
+border-radius: 15px; 
+clear:right;
+text-align: center;
+background-color: green;
+}
+
+body.main-sidebar div#footer 
+{
+margin:15px auto 15px auto;
+width:710px;
+border:solid 3px #815608;
+border-radius: 15px; 
+clear:left;
+text-align: center;
+
+}
+
+
+
+body.main-sidebar div#main, body.sidebar-main div#main
+{
+width:490px;
+border:solid 4px green;
+
+}
+body.main-sidebar div#body, body.sidebar-main div#body
+{
+margin:auto auto auto auto;
+width:710px;
+border:solid 4px #FFF;
+}
+
+
+body.main-sidebar div#sidebar, body.sidebar-main div#sidebar
+{
+padding-top:10px;
+display:block;
+width:200px;
+border:solid 1px #CCC;
+}
+body.main-sidebar div#main, body.main-sidebar div#sidebar  
+{
+float:left;
+border:dotted 1px green;
+}
+body.sidebar-main div#main, body.sidebar-main div#sidebar 
+{
+float:right;
+border:dotted 1px green;
+}
+div#header div#logo 
+{
+margin-bottom:inherit;
+border:dotted 1px green;
+float:left; 
+
+}
+div#header div#main-title 
+{
+width:600px;
+margin-bottom:inherit;
+border:dotted 1px blue;
+padding-bottom:10px;
+
+
+}
+a.menus:link 
+{text-decoration:none; 
+color:#000000;
+background-color:#815608;
+border:#FFFFFF 1px solid;
+} 
+
+a.menus:visited {
+text-decoration:none; 
+color:#cccccc;
+} /*Link visitado*/
+
+a.menus:active {
+text-decoration:none; 
+color: #003399; 
+background: green; 
+border:#FFFFFF 1px solid;
+} /*Link activo*/
+
+a.menus:hover {
+text-decoration:underline; 
+color: #003399; 
+background: red; 
+border:#FFFFFF 1px solid;} 
+
+
+
+</style>
+</head>
+
+<body class="sidebar-main">
+<div id="header">
+    <div id="logo"><img src="logo ies.gif" alt="" height="130" width="230"/>  </div>
+
+<div id="main-title"><h1> IES Miguel Herrero Pereda </h1>
+
+</div>
+<div>
+    <audio id=“player” src=“Aretha.mp3></audio>
+    <button onclick=“document.getElementById(‘player’).play()"><img src="Play1Normal.png" alt="Play" /></button>
+    <button onclick=“document.getElementById(‘player’).play()"><img src="Stop1Hot.png" alt="Stop" /></button>
+    <button onclick=“document.getElementById(‘player’).play()"><img src="VolumeNormal.png" alt="Subir volumen" /></button>
+    <button onclick=“document.getElementById(‘player’).play()"><img src="VolumeNormalRed.png" alt="Bajar volumen" /></button>
+
+</div>
+<p>&nbsp;</p>
+   
+</div>
+
+<div id="body">
+    <div id="main"><img src="DAW218_Parte3B.jpg" alt="" width="330" height="500"/> </div>
+
+<div id="sidebar">
+<div><a href="#" class="menus">Inicio</a></div>
+<div><a href="#" class="menus">¿Dónde Estamos?</a></div>
+<div><a href="#" class="menus">Actividades</a></div>
+<div><a href="#" class="menus">Departamentos</a></div>
+<div><img src="DAW218_Parte3A.gif" alt="" width="150" height="110"/></div>
+
+
+ </div>
+
+</div>
+
+
+<div id="footer">Educacion Publica para TODOS</div>
+
+
+
+</body>
+</html>

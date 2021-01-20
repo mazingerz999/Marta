@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/jquery.js"></script>
+        <script>
+           
+            $(document).ready(function () {
+            $("#texto").css("background-color","yellow");
+                $("#ocultar").click(function () {
+                    $("#texto").hide(1000);
+                });
+                
+                $("#mostrar").click(function () {
+                    $("#texto").show(1000);
+                    
+                });
+
+            });
+        </script>
+    </head>
+    <body>
+        <div style="background-color: grey; width: 250px; height: 60px;">
+            <p><input type="button" id="ocultar" value="Ocultar">
+            <input type="button" id="mostrar" value="Mostrar"></p>
+            <span id="texto">Habia una vez un desarrollador web...</span>
+            
+        </div>
+    </body>
+</html>
